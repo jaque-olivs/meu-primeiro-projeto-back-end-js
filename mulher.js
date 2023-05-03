@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 
-const app = express()
+const app = express()//iniciando o app
 const porta = 3333
 
 function mostraMulher(request, response){
